@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Apple Store</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./pre_entrega_tres.html"><img src="./img/logotipo-de-apple.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pre_entrega_tres.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pre_entrega_tres.html">Servicios</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Nosotros
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./pre_entrega_tres.html">Equipo</a></li>
+                                <li><a class="dropdown-item" href="./pre_entrega_tres.html">Contacto</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./pre_entrega_tres.html"">Acerca de</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class=" d-flex">
+                                        <input class="form-control me-2" type="search" placeholder="Buscar"
+                                            aria-label="Search">
+                                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                                        </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="productos" id="contenedorPadre">
+            <h1>TIENDA</h1>
+            <div class="container" id="listaProductos">
+                <div class="informacion">
+                    <img src="./img/apple-iphone-12-128gb-verde.png" alt="">
+                    <h2>iPhone 12 128GB</h2>
+                    <span class="precio">649 USD</span>
+                    <br>
+                    <a href="#" class="btn btn-secunday botonCompra">Agregar al carrito</a>
+                </div>
+                <div>
+                    <img src="./img/iphone-13.png" alt="">
+                    <h2>iPhone 13 128GB</h2>
+                    <span class="precio">699 USD</span>
+                    <br>
+                    <a href="#" class="btn btn-secunday botonCompra">Agregar al carrito</a>
+                </div>
+                <div>
+                    <img src="./img/Iphone-14-pro-max.png" alt="">
+                    <h2>iPhone 14 Pro Max 128GB</h2>
+                    <span class="precio">1099 USD</span>
+                    <br>
+                    <a href="#" class="btn btn-secunday botonCompra">Agregar al carrito</a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="./img/macbook-air-midnight-config-20220606.jpg" alt="">
+                    <h2>MacBook Air 512GB SSD</h2>
+                    <span class="precio">1499 USD</span>
+                    <br>
+                    <a href="#" class="btn btn-secunday botonCompra">Agregar al carrito</a>
+                </div>
+                <div>
+                    <img src="./img/ipad-air-select-wifi-purple-202203.png" alt="">
+                    <h2>iPad Air 256GB</h2>
+                    <span class="precio">749 USD</span>
+                    <br>
+                    <a href="#" class="btn btn-secunday botonCompra">Agregar al carrito</a>
+                </div>
+                <div>
+                    <img src="./img/imac-24-blue-cto-hero-202104.jpg" alt="">
+                    <h2>iMac 512GB SSD</h2>
+                    <span class="precio">1699 USD</span>
+                    <br>
+                    <a href="#" class="btn btn-secunday botonCompra">Agregar al carrito</a>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="container" id="carrito">
+                <h2>CARRITO</h2>
+                <table class="table table-dark">
+                <thead>
+                    <tr>             
+                    <td>Producto</td>
+                    <td>Nombre</td>
+                    <td>Cantidad</td>
+                    <td>Precio</td>
+                    <td></td>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                
+                </tbody>
+                </table>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h3>Dirección</h3>
+            <a href="https://goo.gl/maps/RLrtXNeeqKrkNZdB7">Mariano I. Loza 592, Goya, Corrientes</a>
+        </div>
+        <div>
+            <h3>Suscribite para recibir novedades:</h3>
+            <form action="">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" name="email">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+        <div class="social">
+            <div>
+                <a href="https://web.whatsapp.com/"><img src="./img/whatsapp.png" alt="Logo WhatsApp"></a>
+            </div>
+            <div>
+                <a href="https://instagram.com/"><img src="./img/instagram.png" alt="Logo Instagram"></a>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/"><img src="./img/facebook.png" alt="Logo Facebook"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./pre_entrega_tres.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+</html>
